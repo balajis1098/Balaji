@@ -1,0 +1,10 @@
+d. Write an SQL query to fetch the list of employees with the same salary and
+ update the list of employee salary to 5000.
+ 
+     Select empId,sal
+     from employee
+     where sal = 3000;
+     
+     Update employee
+     set sal = 5000
+     where empId IN (2,7);
